@@ -1,0 +1,96 @@
+header {
+    background: rgba(20, 19, 19);
+    padding : 1 rem;
+    display : flex;
+    justify-content : space-between;
+}
+
+.movie-name {
+    position : relative;
+    margin: 10px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    font-family: 'Dancing Script',cursive;   
+
+}
+
+.movie-name .maxi {
+    color : red;
+    padding-right : 10px;
+}
+
+.movie-name .cine {
+    color : rgb(11, 238, 11);
+}
+
+.movie-name .maxi:hover {
+    color : yellow;;
+
+}
+
+.movie-name .cine:hover {
+    color : rgb(240, 132, 240);
+
+}
+
+.movie-name .logo {
+    padding : 5px 0px 0px 15px;
+    color : white;
+}
+
+.search {
+    font-family: inherit;
+    font-size: 1.5rem;
+    border: 2px solid #22254b;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    margin: 15px 30px 0px 0px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width : 780px) {
+
+    .movie-container {
+        margin-bottom: 0px;
+    }
+
+    .movie-name {
+        font-size: 1.5rem;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .search {
+        font-size: 5px;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+
+    form {
+        margin-left: 30px;
+    }
+    
+    .movie-name .maxi {
+        padding-right: 5px;
+    }
+    
+    .movie-name .logo {
+        padding-left: 7px;
+    }
+
+}
+
+
+
